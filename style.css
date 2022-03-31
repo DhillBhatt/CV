@@ -1,0 +1,78 @@
+body {
+  background-color:#F9ECEC;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    display: inline;
+}
+
+.design_tech_web{
+  font-family: 'Inter', sans-serif;
+}
+.introduction{
+  text-align:justify;
+  font-family: 'Inter', sans-serif;
+}
+.top-container{
+  background-color: #F9ECEC;
+  height: 30%;
+  position: relative;
+  padding-right: 520px;
+  padding-left: 30px;
+}
+
+.middle-container{
+  margin-left:20px;
+  background-color: #F9ECEC;
+  height: 30%;
+  position: relative;
+  padding-left: 30px;
+}
+.bottom-container{
+  margin-left:20px;
+  background-color: #F9ECEC;
+  height: 30%;
+  position: relative;
+  padding-left: 30px;
+}
+.class{
+  display:block;
+}
+.contact_hobbies{
+  border-spacing:0;
+}
+
+hr {
+  border-color: #CEAB93;
+  border-style: none;
+  border-top-style: solid;
+  border-width:5px;
+  display:inline-block;
+  width:5%;
+  margin-left:50px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+img {
+  height:220px;
+}
+
+h1 {
+  color:#694E4E;
+  font-family: 'Source Serif Pro', serif;
+}
+h1:hover{
+  background-color: gold;
+}
+h3{
+  color:#694E4E;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 22px;
+}
+
+table{
+  border-spacing: 20px;
+  padding:0;
+  margin:0;
+  text-align: left;
+}

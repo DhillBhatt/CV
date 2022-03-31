@@ -1,46 +1,9 @@
 body {
   background-color:#F9ECEC;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    display: inline;
-}
-
-.design_tech_web{
   font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  display: inline;
 }
-.introduction{
-  text-align:justify;
-  font-family: 'Inter', sans-serif;
-}
-.top-container{
-  background-color: #F9ECEC;
-  height: 30%;
-  position: relative;
-  padding-right: 520px;
-  padding-left: 30px;
-}
-
-.middle-container{
-  margin-left:20px;
-  background-color: #F9ECEC;
-  height: 30%;
-  position: relative;
-  padding-left: 30px;
-}
-.bottom-container{
-  margin-left:20px;
-  background-color: #F9ECEC;
-  height: 30%;
-  position: relative;
-  padding-left: 30px;
-}
-.class{
-  display:block;
-}
-.contact_hobbies{
-  border-spacing:0;
-}
-
 hr {
   border-color: #CEAB93;
   border-style: none;
@@ -48,31 +11,45 @@ hr {
   border-width:5px;
   display:inline-block;
   width:5%;
-  margin-left:50px;
-  margin-top:5px;
-  margin-bottom:5px;
+  margin:1% 4.5%;
 }
 
 img {
   height:220px;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   color:#694E4E;
   font-family: 'Source Serif Pro', serif;
-}
-h1:hover{
-  background-color: gold;
-}
-h3{
-  color:#694E4E;
-  font-family: 'Source Serif Pro', serif;
-  font-size: 22px;
 }
 
 table{
   border-spacing: 20px;
-  padding:0;
-  margin:0;
   text-align: left;
+}
+
+.section-titles{
+  font-size: 22px;
+}
+
+.container{
+  margin-left:2%;
+  height: 30%;
+  position: relative;
+  padding-right: 460px;
+  padding-left: 30px;
+}
+
+.line-spacing{
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.my-details{
+  display: inline-block;
+  font-weight:bold;
+  margin:0 1rem 0 0;
+}
+
+.contact-form{
+  margin-bottom:1rem;
 }

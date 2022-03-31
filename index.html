@@ -15,33 +15,31 @@
 </head>
 
 <body>
-  <div class="top-container">
+  <div id="dhillon" class="container">
     <table>
       <tr>
         <td><img src="Dhillon.jpg" alt"dhillon profile picture"></td>
         <td>
           <h1>Dhillon Bhatt</h1>
-          <p class="design_tech_web">Design, Tech and Web Enthusiast!</p>
-          <p class="introduction">Since discovering my passion for Web Development during my overseas placement I aim to specialise in this field using my strong foundation in <strong>Product Design</strong> and <strong>User Experience</strong>. I
-            currently work as a freelancer and am undertaking online courses to expand on my capabilities with Web Development. Through the right opportunity my goal is to bring these capabilities up to a professional standard and establish myself in
-            the industry.</p>
+          <p class="my-details">Alperton, London</p> <p class="my-details">07734336965</p> <p class="my-details">dhillonjoshi95@gmail.com</p>
+          <p class="line-spacing">A huge UX/UI enthusiast looking to utilise my background in product design to produce beautiful and gripping Websites/ Apps as a Web Developer. I love the creativity and flexibility through which I can approach various functional and visual objectives in Web Development. I am currently working as a freelance Web Designer and undertaking a Web Development course to expand on my skills!</p>
         </td>
       </tr>
     </table>
   </div>
   <hr />
-  <div class="middle-container">
-    <h3>Education</h3>
+  <div id="education" class="container">
+    <h3 class="section-titles">Education</h3>
     <ul>
-      <li><a href="https://www.dmu.ac.uk/study/undergraduate-study/open-days/open-days.aspx?gclid=CjwKCAiAgvKQBhBbEiwAaPQw3BkeeWAOeoIYCHE_-VKnUHZ6Q4IzkQ6yeSd2rg1oTwT4omxL-MsBnRoCifsQAvD_BwE">De Montfort University</a> - Msc Business Managment (Web
+      <li class="line-spacing"><a href="https://www.dmu.ac.uk/study/undergraduate-study/open-days/open-days.aspx?gclid=CjwKCAiAgvKQBhBbEiwAaPQw3BkeeWAOeoIYCHE_-VKnUHZ6Q4IzkQ6yeSd2rg1oTwT4omxL-MsBnRoCifsQAvD_BwE">De Montfort University</a> - Msc Business Managment (Web
         Development, Global Communication).</li>
-      <li>De Montfort University - BA Product Design (Visual Communication, Product & UX Design).</li>
-      <li>MTA - Microsoft Software Development Fundamentals (C#, Python).</li>
+      <li class="line-spacing">De Montfort University - BA Product Design (Visual Communication, Product & UX Design).</li>
+      <li class="line-spacing">MTA - Microsoft Software Development Fundamentals (C#, Python).</li>
     </ul>
   </div>
   <hr />
-  <div class="middle-container">
-    <h3>Work Experience</h3>
+  <div class="container">
+    <h3 id="work-experience" class="section-titles">Work Experience</h3>
     <table class="experience">
       <thead>
         <tr>
@@ -75,26 +73,26 @@
     </table>
   </div>
   <hr />
-  <div class="middle-container">
-    <h3>Skills</h3>
+  <div class="container">
+    <h3 id="skills" class="section-titles">Skills</h3>
     <table>
       <tr>
         <td>
           <table>
             <tbody>
-              <tr>
+              <tr class="skills">
                 <td>Adobe Photoshop</td>
                 <td>⭐⭐⭐⭐⭐</td>
               </tr>
-              <tr>
+              <tr class="skills">
                 <td>Adobe Illustrator</td>
                 <td>⭐⭐⭐⭐</td>
               </tr>
-              <tr>
+              <tr class="skills">
                 <td>Adobe SolidWorks</td>
                 <td>⭐⭐⭐⭐</td>
               </tr>
-              <tr>
+              <tr class="skills">
                 <td>Python</td>
                 <td>⭐⭐</td>
               </tr>
@@ -127,17 +125,30 @@
     </table>
   </div>
   <hr />
-  <div class="bottom-container">
-    <h3>Hobbies</h3>
+  <div class="container">
+    <h3 id="hobbies" class="section-titles">Hobbies</h3>
     <ul>
-      <li><a href="https://photos.app.goo.gl/2iE6AR8icBjeVGfT6">Decorating & DIY</a></li>
-      <li><a href="https://www.londondesignbiennale.com/dhillon-bhatt">3D Design</a></li>
-      <li>Cross Fitness</li>
+      <li class="line-spacing"><a href="https://photos.app.goo.gl/2iE6AR8icBjeVGfT6">Decorating & DIY</a></li>
+      <li class="line-spacing"><a href="https://www.londondesignbiennale.com/dhillon-bhatt">3D Design</a></li>
+      <li class="line-spacing">Cross Fitness</li>
     </ul>
-    <td><a href="contact.html">Contact Me</a></td>
       </tr>
     </table>
   </div>
+  <hr />
+
+<div class="container">
+  <h3 id="contact-me" class="section-titles">Contact Me</h3>
+  <form action="mailto:dhillonjoshi95@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input class="contact-form" type="text" name="yourName" value=""><br />
+    <label>Your Email :</label>
+    <input class="contact-form" type="email" name="yourEmail" value"" /><br />
+    <label>Your Message:</label><br />
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br />
+    <input type="submit" name="">
+  </form>
+</div>
 
 </body>
 

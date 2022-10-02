@@ -1,0 +1,76 @@
+body {
+  background-color:#F9ECEC;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  display: inline;
+}
+footer {
+  padding-top: 5%;
+}
+hr {
+  color: #D17E64;
+  border-style: none;
+  border-top-style: solid;
+  border-width:5px;
+  display:inline-block;
+  width:5%;
+  margin:1% 4.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#694E4E;
+  font-family: 'Source Serif Pro', serif;
+  font-weight:900;
+  margin-bottom:2%;
+}
+
+.dhillon-img{
+  height:235px;
+  border-radius:2%;
+  margin:2% 0 2% 0;
+}
+.dhillon-bhatt{
+  font-weight: 900;
+  margin:0;
+}
+.my-details{
+  display: inline-block;
+  font-weight:bold;
+  margin:2% 2rem 2% 0;
+}
+.section-titles{
+  font-size: 22px;
+}
+
+.container{
+  margin-left:2%;
+  margin-bottom:0;
+  height: 30%;
+  position: relative;
+  padding-right: 470px;
+  padding-left: 30px;
+}
+
+.line-spacing{
+  line-height: 1.5rem;
+  text-align: justify;
+}
+/*Work Experience*/
+.work-experience{
+  font-weight:bold;
+}
+.experience-table{
+margin-left:3%;
+}
+/*Skills*/
+
+.inline{
+  display:inline-block;
+  margin-right:6%;
+}
+.contact-form{
+  margin-bottom:1rem;
+}
+#skills.section-titles{
+  margin-bottom:0;
+}
